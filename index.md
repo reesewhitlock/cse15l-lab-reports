@@ -11,7 +11,7 @@
 > 1. Numbered
 > 2. List
 > ---
-> 'INLINE CODE'
-> '''
+> `INLINE CODE`
+> ```
 > my code block
-> '''
+> ```

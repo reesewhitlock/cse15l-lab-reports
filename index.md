@@ -2,7 +2,7 @@
 ## Second heading !
 *Italic text !!*
 **Bold text B)**
-[Markdown cheet sheet] (https://commonmark.org/help/)
+[Markdown cheet sheet](https://commonmark.org/help/)
 > My blockquote
 > * This
 > * is

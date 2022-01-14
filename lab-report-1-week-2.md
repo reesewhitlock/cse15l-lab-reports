@@ -60,3 +60,17 @@ For example, I typed:
 This saved the public key to a folder in .ssh called authorized_keys. You can then see me log into the server without having to enter my password.
 
 ![Image](step5b.png)
+
+## 6. Tips on how to optimize remote running
+
+* Put quotation marks around a command after using an ssh command to run it on the remote server and then subsequently log out
+
+`ssh cs15lwi22ahm@ieng6.ucsd.edu "yourCommand"`
+
+An example:
+
+![Image](step6.png)
+
+* Run multiple commands using semicolons
+
+`javac WhereAmI.java; java WhereAmI`

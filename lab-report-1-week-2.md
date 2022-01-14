@@ -39,7 +39,7 @@ The public key is stored on the server, while the private key is stored on the c
 
 On your client computer use the command:
 
->`$ ssh-keygen`
+>$ ssh-keygen
 
 When asked if you want to enter a passphrase, just hit Enter so that there will be no passphrase.
 

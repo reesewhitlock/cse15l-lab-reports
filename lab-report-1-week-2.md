@@ -1,5 +1,8 @@
 # Tutorial on how to log into a course-specific account on ieng6
-## 1. Install VScode according to your operating system. 
+## 1. Install VScode according to your operating system.
+
+Follow this [link](https://code.visualstudio.com/download) to download VScode.
+
 When it is up and running, it should look something like this:
 ![Image](step1.png)
 

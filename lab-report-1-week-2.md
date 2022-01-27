@@ -77,3 +77,5 @@ An example:
 * Run multiple commands using semicolons
 
 `javac WhereAmI.java; java WhereAmI`
+
+* Additionally, you can use the up and down arrows to access code previously typed and significantly reduce keystrokes.

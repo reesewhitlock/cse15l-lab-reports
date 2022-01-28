@@ -85,4 +85,4 @@ An example:
 In order to reduce the keystrokes for this process, each time you make local changes to a file, use the up and down arrows to
 run a combination of what we just learned.
 
-For example, something like this: '$ scp WhereAmI.java cs15lwi22ahm@ieng6.ucsd.edu; javac WhereAmI.java; java WhereAmI.java'
+For example, something like this: `$ scp WhereAmI.java cs15lwi22ahm@ieng6.ucsd.edu; javac WhereAmI.java; java WhereAmI.java`

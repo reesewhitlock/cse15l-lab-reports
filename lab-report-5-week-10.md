@@ -8,10 +8,25 @@ I found the tests with different results by using diff on two different text fil
 
 ## Test 1
 When I ran diff to see the differences between the results files, here is one difference between the two and the differing output:
+
 ![](diff1.png)
 
+Output for provided implementation:
+
+![](their1.png)
+
+Output for my implementation:
+
+![](my1.png)
+
 Here is the file for the first inconsistency:
+
 ![](testFile1.png)
-Here is the markdown parse preview:
-![](preview1.png)
-This shows that /url is a link.
+
+The expected output is [] because there are no links in this file. Therefore, my implementation has the correct output.
+
+---
+
+When looking through what is wrong with the implementation, it appears to me that this block of code: should stop any links from being added because there are no open or closed parentheses:
+
+![](wrong1.png)
